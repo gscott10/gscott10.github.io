@@ -1,0 +1,1608 @@
+* {
+	box-sizing: border-box;
+}
+
+img{max-width:100%;}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.top_language a {
+    color: #fff;
+    text-decoration: none;
+} 
+
+.m_container {
+	width: 100%; 
+	margin: 0 auto; 
+	text-align: center;
+}
+
+.m_deck01 {
+height: 900px;
+background-color: #004098;
+width: 100%;
+}
+
+.top_menu {
+	width: 1200px;
+	margin: 0px auto;
+	padding: 40px 100px 120px;
+}
+
+.top_language {
+	float: left; 
+	font-family: 'Maven Pro', sans-serif; 
+	color: #fff; 
+	font-size: 12px;
+	margin: 3px 40px;
+	letter-spacing: 4px;
+}
+
+.top_slider {
+	clear: both; 
+	width: 1200px; 
+	margin: 0px auto;
+	padding: 0 100px;
+}
+
+.left_image {
+	float: left;
+	padding: 100px 50px 0px;
+}
+
+.right_part {
+	float: left;
+	padding: 200px 30px 100px;
+	color: #fff;
+	text-align: left;
+}
+
+.app_btn {
+	float: left;
+	padding: 0px 6px;
+}
+
+.right_part01 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	font-style: italic;
+	letter-spacing: 4px;
+}
+
+.right_part02 {
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	font-size: 50px;
+	font-weight: 200;
+}
+
+.right_part03 {
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	font-size: 50px;
+	font-weight: 200;
+	margin: -20px 0 20px 0;
+}
+
+.right_part05 {
+	font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+    height: 50px;
+    margin-top: 150px;
+    position: initial;
+}
+.maven {
+	font-family: 'Maven Pro', sans-serif; 
+	font-style: normal !important;
+	font-weight: 900;
+	margin: 0 20px;	
+}
+
+.m_deck_rest {
+	width: 100%; 
+	margin: 0 auto; 
+	text-align: center; 
+	padding:56px 0;
+}
+
+.m_deck_rest_image {
+/*	margin: -56px; */
+}
+
+.deck2 {
+	text-align:center;
+	width: 100%;
+	clear: both !important;
+	margin: 0 auto;
+}
+
+.deck3 {
+	text-align:center;
+	width: 100%;
+	background-color: #3b3d40;
+	border-bottom: 1px solid #47484b;
+}
+
+.deck3_1 {
+	text-align:center;
+	width: 100%;
+	background-color: #3b3d40;
+	padding: 90px 0 0 0;
+}
+
+.deck4 {
+	text-align:center;
+	width: 100%;
+	background-color: #f9f9f9;
+}
+
+.deck5 {
+	text-align:center;
+	width: 100%;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.deck5_1 {
+	text-align:center;
+	width: 100%;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.deck6 {
+	text-align:center;
+	width: 100%;
+	background-color: #f9f9f9;
+	margin-top: -20px
+}
+
+.deck7 {
+	text-align:center;
+	width: 100%;
+}
+
+.deck8 {
+	text-align:center;
+	width: 100%;
+	background-color: #3b3d40;
+	margin-top: -20px;
+}
+
+.deck9 {
+	text-align:center;
+	width: 100%;
+	background-color: #f9f9f9;
+	padding: 0 0 80px;
+}
+
+.deck10 {
+	text-align:center;
+	width: 100%;
+}
+
+.section01 {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 0 80px 110px;
+}
+
+.section02 {
+	display: inline-block;
+	width: 750px;
+	text-align: left;
+	padding: 55px 0 60px 60px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+.section02_1 {
+	font-size: 42px;
+    font-weight: bold;
+    color: #004098;
+    font-family: 'Maven Pro', sans-serif;
+    line-height: 1.4;
+    animation-name: fadeInUp;
+}
+
+.section02_2 {
+	font-size: 42px;
+    font-weight: bold;
+    color: #004098;
+    font-family: 'Maven Pro', sans-serif;
+    line-height: 1.4;
+}
+
+.section02_3 {
+	color: #1e1b1b;
+    font-size: 18px;
+	font-weight:300;
+    margin: 40px 0 20px 0;
+	text-align:justify;
+    
+}
+
+.section02_4 {
+	color: #1e1b1b;
+	font-weight:300;
+    font-size: 18px;
+	text-align:justify;
+}
+
+.deck3_title {
+	font-family: 'Maven Pro', sans-serif;
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: 500;
+    padding: 120px 0 20px;
+	line-height:1.2;
+}
+
+.deck3_subtitle{
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: 400;
+	font-size:24px;
+	color:#fff;
+	padding:0 0 10px;
+}
+
+.why_list{list-style:none;margin:30px 0 120px;padding:0;}
+	.why_list li{float:left;width:18%;margin:0 1%;border:3px solid #fff;padding:35px 10px 10px;color:#fff;}
+	.why_list li h3{font-family: 'Maven Pro', sans-serif;font-weight: 700;font-size:36px;min-height:80px;}
+	.why_list li p{
+		font-family: 'Roboto', sans-serif;font-weight: 300;font-size:15px;line-height:1.2;
+		margin-top:40px;min-height:125px;
+	}
+
+.deck3_text {
+	color: #ffffff;
+    display: inline-block;
+    width: 360px;
+    text-align: right;
+    font-size: 16px;
+}
+
+.deck3_img {
+    display: inline-block;
+}
+
+.deck3_1_text {
+    color: #ffffff;
+    display: inline-block;
+    width: 360px;
+    text-align: left;
+    font-size: 16px;
+    padding: 80px 0 0 0;
+    vertical-align: top;
+}
+
+.deck3_1_img {
+    display: inline-block;
+	vertical-align: top;
+}
+
+.deck4_title {
+	font-family: 'Maven Pro', sans-serif;
+    color: #fff;
+    font-size: 42px;
+    font-weight: 600;
+    padding: 100px 0 20px;line-height:1.2;
+    margin-top: 0;
+}
+
+.deck4_cont01 {
+	width:290px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 30px 30px;
+}
+
+.deck4_cont {
+    padding: 60px 0 80px 0;
+}
+
+.deck4_cont01_4 {
+	font-size: 14px;
+}
+
+.deck4_cont01_2 {
+	font-size: 13px;
+    font-family: 'Roboto', Arial;
+    color: #fff;
+    font-weight:400;
+}
+
+.deck4_cont01_3 {
+	font-size: 18px;
+    font-family: 'Roboto', Arial;
+    color: #fff;
+    font-weight:300;line-height:1.3;
+}
+
+.deck4_cont01_1 {
+	padding: 0 0 30px 0;
+}
+
+.deck4_keep{
+	padding: 90px 0 60px 0;
+}
+
+.deck5_title {
+	font-family: 'Maven Pro', sans-serif;
+    color: #004098;
+    font-size: 42px;
+    font-weight: 600;
+	padding: 100px 0 85px;
+    line-height: 1.2;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.deck5_subtitle {
+	font-size: 18px;
+    color: #1e1b1b;
+    width: 900px;
+    margin: 0 auto 30px;
+    text-align: left;
+	font-family: 'Roboto', sans-serif;font-weight: 300;line-height:1.4;
+}
+
+.deck5_cont01 {
+	display: inline-block;
+	vertical-align: top;
+	padding: 60px 20px 100px;
+}
+
+.deck5_cont01_1{position:relative;}
+.deck5_cont01_1 .player{position:absolute;top:73px;left:53px;}
+
+.deck5_cont01_2 {
+	font-size: 12px;
+    font-family: 'Roboto', Arial;
+    color: #004098;
+    font-weight:600;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 0 0 35px;
+}
+
+.deck6_title {
+    font-family: 'Maven Pro', sans-serif;
+    color: #fff;
+    font-size: 42px;
+    font-weight: 600;
+    padding: 130px 0 85px;
+    line-height: 1.2;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.deck6_subtitle {
+	font-size: 18px;
+    color: #fff;
+    width: 800px;
+    margin: 0 auto 30px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;line-height:1.4;
+	text-align:justify;
+}
+
+.deck6_cont{
+	padding: 60px 0 20px;
+}
+
+.deck6_cont01 {
+	display: inline-block;
+	width: 460px;
+	vertical-align: top;
+}
+
+.deck6_cont02 {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.deck6_cont011 {
+	font-family: 'Maven Pro', sans-serif;
+    color: #004098;
+    font-size: 52px;
+    font-weight: 600;
+    padding: 100px 0 20px;
+    text-align: left;
+    line-height: 1.2;
+    word-wrap: break-word;
+}
+
+.deck6_cont012 {
+    color: #1e1b1b;
+    font-size: 16px;
+    text-align: left;
+}
+
+.deck6_cont02{
+    padding: 90px 0 0 0;
+}
+
+.deck6_cont013	{
+	padding: 60px 0 0;
+}
+
+.price_table {
+    border: 1px solid #8f8f8f;
+    width: 260px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 0 130px 0;
+	font-family: 'Roboto', Arial;
+	font-size: 14px;
+}
+
+.price_table:hover {
+    border: 5px solid #004098;
+    width: 264px;
+    margin: -2px 0 100px 0;
+	-webkit-transition: all 0.21s ease-in-out;
+	-moz-transition: all 0.21s ease-in-out;
+	-o-transition: all 0.21s ease-in-out;
+	transition: all 0.21s ease-in-out;
+	cursor: pointer;
+	box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.27);
+}
+
+.price_table_title{
+	color: #ffffff;
+	font-size: 16px;
+    font-family: 'Roboto', Arial;
+    font-weight:600;
+    text-align: center;
+	line-height:1.5;
+	padding:20px 0;
+}
+
+.price_table_title span{font-weight:400;font-size:14px;}
+
+.price_table_title01 {background-color: #bcbcbc;}
+.price_table_title02 {background-color: #8f8f8f;}
+.price_table_title03 {background-color: #7f7f7f;}
+.price_table_title04 {background-color: #5e5e5e;}
+
+.price_table_title_over {
+	color: white !important;
+	background-color: #004098;
+}
+
+.price_table_text {
+	height: 38px;	
+	line-height: 3;			
+	border-bottom: 1px solid #d2d2d2;
+	letter-spacing: -0.5px;
+}
+
+.price_table_price {
+    font-size: 34px;
+    color: #004098;
+    font-weight: bold;
+    padding: 20px 0 0 0;
+}
+
+.price_table_term {
+    font-size: 11px;
+    color: #1e1b1b;
+    font-weight: bold;
+    line-height: 1;
+	border-bottom: 1px solid #d2d2d2;
+	padding: 0 0 30px 0;
+}
+
+.price_table_order {
+	font-size: 14px;
+    color: #1e1b1b;
+    font-weight: bold;
+	padding: 20px 0;
+}
+
+.global {
+	max-width:900px; 
+	margin:auto; 
+	text-align: center; 
+	padding:0; 
+	background-image:url('http://applr.co.kr/assets/img/back_world2.png'); 
+	background-size:auto 100%; 
+	background-position:center; 
+	height: 650px;
+}
+
+.global_title {
+	font-family: 'Maven Pro', sans-serif;
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: 600;
+    padding: 130px 0 30px;
+	word-wrap: break-word;
+}
+
+.global_text {
+	font-family: 'Roboto', Arial, sans-serif;
+	color: #ffffff;
+	font-weight:300;
+    font-size: 18px;
+	line-height: 1.4;
+}
+
+.mbottom_text01 {
+	font-family: 'Roboto', Arial;
+	color:white; 
+	font-size:11px;
+    padding: 80px 0 30px;
+}
+
+.mbottom_text02 {
+	color:white; 
+	font-size:50px; 
+	text-align:center;
+	font-family: 'Roboto', Arial;	
+	line-height: 1.2;
+}
+
+.mbottom_icon {
+	padding: 60px 0 100px;
+}
+
+.mbottom_icon img {
+	margin: 0px 10px;
+}
+
+.mbottom_text03 {
+	color: white;
+    font-size: 12px;
+    padding: 10px;
+    letter-spacing: 0.5px;
+}
+
+.mbottom_text04 {
+	color: white;
+    font-size: 12px;
+    padding: 0px 0 20px;
+    letter-spacing: 0.5px;
+}
+
+.mbottom_icon2 img {
+		margin: 0px 10px;
+}
+
+.span3 {
+	display: inline-block;
+	margin: 3px 0 0 0;
+}
+
+.deck9_inside {
+	margin: 80px auto 30px;
+	width: 90%;
+}
+
+.slick-slider {
+	margin: 0 !important;
+}
+
+.slick-dots {
+	display: none !important;
+}
+
+.mem_background {
+	width:315px;
+	background-color: #fff;
+	margin: 0 10px 20px;	
+	border-radius: 5px;
+	text-align: center;
+}
+
+.mem_background:hover {
+	-webkit-transition: all 0.21s ease-in-out;
+	-moz-transition: all 0.21s ease-in-out;
+	-o-transition: all 0.21s ease-in-out;
+	transition: all 0.21s ease-in-out;
+	cursor: pointer;
+	box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.27);
+	margin-top: -2px;
+	overflow: visible;
+}
+
+.mem_pic {
+	padding: 46px 0px 36px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.mem_pic img {
+	margin: 0 auto;
+}
+
+.mem_name {
+	font-size: 15px;
+	font-family: 'Roboto', Arial;
+	font-weight: 300;
+	letter-spacing: 1px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.mem_line {
+	height: 2px;
+	width: 30px;
+	background-color: #004098;
+	margin: 16px auto;
+}
+
+.mem_class {
+	font-size: 14px;
+	font-family: Arial;
+	color: #004098;
+	padding: 0px 0 60px;
+	text-align: center;
+}
+
+.deck9 .deck9_inside  input[type='button']{background:#004098;border:none;color:#fff;border-radius:8px;padding:21px 89px;margin-top:80px; width:250px; height:70px;}
+
+
+
+.bb_big {
+	text-align:center; 
+	margin:auto; 
+	padding-top:60px; 
+	padding-bottom:60px;  
+	width:100%; 
+	text-align:left; 
+	line-height: 1.2;
+}
+
+.bb_big_title {
+	color:white; 
+	font-family: 'Roboto', Arial; 
+	font-size: 118px;
+}
+
+.bb_big_title2 {
+	color:black; 
+	font-size: 118px;
+}
+
+.bb_big_top {
+	max-width:700px; 
+	margin:auto;  
+	text-align: center; 
+	padding:0; 
+	background-image:url('http://applr.co.kr/assets/img/back_b_b_.png'); 
+	background-size:100% 100%;
+}
+
+.bb_big_top2 {
+	max-width:700px; 
+	margin:auto;  
+	text-align: center; 
+	padding:0; 
+	background-image:url('http://applr.co.kr/assets/img/back_b_b_.png'); 
+	background-size:100% 100%;
+	display: none;
+}
+
+.bb_big2 {
+	text-align:center; 
+	margin:auto; 
+	padding-top:60px; 
+	padding-bottom:60px;  
+	width:100%; 
+	text-align:left; 
+	line-height: 1.2;
+}
+
+.autoplay {
+	display: block !important;
+}
+
+.noplay {
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.deck6_cont013_1 {
+	display: none;
+}
+
+.last_deck {
+	background-image:url('http://applr.co.kr/assets/img/coffee_bg.png'); 
+	background-repeat: no-repeat; 
+	background-size: 100% 100%; 
+}
+
+/* kang2oon add */
+.mcapp{}
+.mcapp2{margin-top:70px;}
+	.mcapp_text{
+		display: inline-block;width: 360px;padding-top:120px; 
+		font-family: 'Roboto', sans-serif;font-weight: 300;font-size:18px;
+		text-align:justify;line-height:1.4;
+	}
+.bluebg{background-color:#004098;color:#fff; margin-top: -20px;}
+.blackbg{background-color:#3b3d40;color:#fff;}
+.sizeup{font-size:18px;font-weight:300;}
+	.sizeup strong{display:block;}
+.btn_free_wrap{padding:0 0 100px;text-align:center;}
+	.btn_free_wrap a{dipslay:inline-block;padding:21px 76px;border:3px solid #004098;border-radius:8px;font-size:24px;color:#004098;}
+	.btn_free_wrap a:hover{color:#fff;background:#004098;}
+.deck4_cont.second{padding:0 0 80px;}
+.o2o{padding:0 0 100px;}
+	.o2o_text{
+		display: inline-block;width: 600px;padding:50px 0 0 60px;
+		font-family: 'Roboto', sans-serif;font-weight: 300;font-size:18px;
+		text-align:left;line-height:2;
+	}
+	.o2o_text h3{font-size:30px;font-weight:700;color:#004098;margin-bottom:60px;}
+.deck5_subtitle.nthem{width:800px;font-size:18px;}
+.market em{display:block;font-family: 'Roboto', sans-serif;font-weight: 600;font-size:18px;letter-spacing:2px;margin-bottom:60px;}
+	.market .go_market{margin-bottom:100px;}
+	.market .go_market a{padding:0 5px;}
+.contact_subtitle{
+	font-size: 18px;
+    color: #1e1b1b;
+    width: 800px;
+    margin: -30px auto 50px;
+    text-align: justify;
+	font-family: 'Roboto', sans-serif;font-weight: 300;line-height:1.4;
+}
+.sendmail{width:800px; margin:0 auto 140px;}
+	.sendmail ul{list-style:none;padding:0;margin:0;}
+	.sendmail li{float:left;width:48%;margin:1%;}
+	.sendmail li.double{width:98%;}
+	.sendmail li input, .sendmail li textarea{border:1px solid #535353;border-radius:8px;width:100%;padding:13px 21px;}
+	.sendmail li textarea{height:200px;}
+	.sendmail input[type='submit']{background:#004098;border:none;color:#fff;border-radius:8px;padding:21px 89px;margin-top:10px; margin-left: -20px; width:250px; height:70px;}
+	.sendmail input[type='button']{background:#3b3d40;border:none;color:#fff;border-radius:8px;padding:21px 89px;margin-top:10px; margin-right: 10px; width:250px; height:70px;}
+	input.close{font-size: 14px; font-family: 'Roboto', sans-serif; font-weight: 300;}
+.portfolio{list-style:none;margin:50px 0 0;padding:0;}
+	.portfolio li{float:left;width:20%;padding:60px 0;background:#fff;text-align:center;}
+	.portfolio li.Line{background:#4e4e4e;}
+	.portfolio li.CheetahMobile{background:#7f7f7f;}
+	.portfolio li.SCSB{background:#585858;}
+	.portfolio li.Benz{background:#e7e7e7;}
+	.portfolio li.Mediacom{background:#7f7f7f;}
+	.portfolio li:hover img{transform: scale(1.15, 1.15);transition: .5s ease-in-out;}
+.logistic{padding:0;position:relative;top:-100px;}
+	.logistic ul{margin:0;padding:0;list-style:none;}
+	.logistic ul li{float:left;width:25%;text-align:center;padding:20px 0;}
+	.logistic ul li.yamato{background:#ecd00e;}
+	.logistic ul li.freeway{background:#14315b;}
+#contact{width:600px;padding:30px;background:#fff;border-radius:10px;display:none; top: 100px !important;}
+	#contact .sendmail{width:100%;margin:0;}
+.logo_72{font-family:'Roboto', sans-serif;font-weight:300;font-style:italic;}
+.logo_cast{font-family:'Maven Pro', sans-serif;font-weight:500;}
+.logo_nthem{font-family:'Roboto', sans-serif;font-weight:400;}
+.logo_nthem2{position:relative;top:-4px;display:inline-block;height:55px;}
+.logo_nthem2 img{max-height:100%;}
+.nthem_container{padding-bottom: 30px;}
+.video-js .vjs-tech {
+	position: absolute!important;
+	top: 0;
+	left: 0;
+	/*width: 0!important;
+	height: 0!important;*/
+}
+
+/*  ---------------------------------------------------------------------------------------------------------------------   */
+/*  ---------------------------------------------------------------------------------------------------------------------   */
+/*  ---------------------------------------------------------------------------------------------------------------------   */
+/*  ---------------------------------------------------------------------------------------------------------------------   */
+
+/* 아이패드 가로 */
+@media (max-width : 1100px) {
+.m_deck01{
+	height:850px;
+}
+
+.top_menu {
+	width: 100% !important;
+	margin: 0px auto;
+	padding: 40px 10px 70px !important;
+}
+
+.top_slider {
+    width: 100% !important;
+    padding: 0 10px !important;
+}
+
+.left_image{
+	padding: 100px 50px 0;
+}
+
+.section01{
+	padding: 0 40px 80px 0px;
+}
+
+.right_part05 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 8px;
+    letter-spacing: 1px;
+    height: 50px;
+    position: absolute;
+    margin-top: 130px;
+}
+
+.deck2 {
+	width: 100%;
+}
+
+.section02 {
+    display: inline-block;
+    width: 600px;
+    text-align: left;
+    padding: 40px 0 0 0px;
+}
+
+.deck5_subtitle {
+    width: 85%;
+}
+
+.deck6_cont02 img {
+    width: 100%;
+}
+
+.deck3_img img {
+    width: 100%;
+}
+
+.deck3_1_img img {
+    width: 100%;
+}
+
+.deck10 {
+    text-align: center;
+    width: 100%;
+}
+
+.deck4_cont01 {
+    width: 330px;
+}
+
+.deck4_keep {
+    padding: 0px 0 60px 0;
+}
+
+.deck5_cont01 {
+    padding: 60px 0px 100px;
+    width: 30%;
+}
+
+.deck6_cont02 {
+    padding: 0px 0 90px;
+}
+
+.price_table {
+    width: 230px;
+}
+
+
+.price_table:hover {
+    width: 231px;
+}
+
+.mem_background {
+    width: 350px;
+    margin: 15 15px;
+}
+
+.deck5_cont01_1 .player{visibility:hidden;display:none;}
+
+.deck9_inside {
+ height: 64%;
+ padding-top: 50px;
+}
+
+.autoplay {
+	display: block !important;
+}
+
+.noplay {
+	display: block !important;
+}
+
+.deck6_cont013 {
+	display: none;
+}
+
+.deck6_cont013_1 {
+	display: block;
+	padding: 0 10px 0;
+}
+
+.deck6_cont013_1 img {
+	width: 100% !important;
+}
+
+.last_deck {
+	background-size: auto 100%; 
+}
+
+}
+
+/*아이패드 세로*/
+@media (max-width : 800px) { 
+
+		
+.left_image {
+    float: left;
+    padding: 80px 0 0 0;
+}
+
+.right_part {
+    padding: 180px 0px 100px;
+    width: 400px;
+}
+
+.right_part02 {
+	font-size: 40px;
+}
+
+.right_part03 {
+	font-size: 40px;
+}
+
+.right_part05 {	
+    font-family: 'Roboto', sans-serif;
+    font-size: 8px;
+    letter-spacing: 1px;
+    height: 50px;
+    position: absolute;
+    margin-top: 150px;
+}
+
+.maven {
+    margin: 0 0 0 10px;
+}
+
+.section02 {
+    width: 420px;
+    padding: 0 0 0 40px;
+}
+
+.section02_1 {
+
+}
+
+.section02_2 {
+
+}
+
+.section02_3, .section02_4 {
+    font-size: 16px;font-weight:300;
+}
+
+.bb_big_top {
+	display: none;
+}
+
+.bb_big_top2 {
+	display: block;
+}
+
+.bb_big_image {
+	text-align: center;
+}
+
+.bb_big_image img {
+	width:80%;
+	margin: 0 auto;
+}
+
+.mem_background {
+    width: 250px;
+}
+
+.deck3_text {
+    width: 80%;
+    text-align: center;
+}
+
+.deck3_1_text {
+    width: 80%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.deck4_cont01 {
+    width: 230px;
+    padding: 0 10px 30px;
+}
+
+.deck5_cont01_1 img {
+	width: 100%;
+}
+
+.price_table {
+    width: 350px;
+}
+
+.price_table:hover {
+    width: 351px;
+}
+
+.deck5_cont01_1 .player{visibility:hidden;display:none;}
+
+.deck9_inside {
+  height: 50%;
+}
+
+.autoplay {
+	display: block !important;
+}
+
+.noplay {
+	display: block !important;
+}
+
+/* kang2oon add */
+.deck2{padding:0 0 80px;}
+.section01{padding:20px 0 0 0;}
+.deck5_title{padding:80px 0 80px;}
+.mcapp_text{width:680px;padding:0;margin:30px 0;}
+.deck6_subtitle{width:680px;}
+.o2o_text{padding:60px 0 0 0;line-height:2;}
+.deck5_subtitle.nthem{width:680px;font-size:18px;}
+.sendmail{width:100%;margin:0 0px 100px; }
+.portfolio li{width:33.333333%;padding:40px 0;}
+.why_list li{width:48%;margin:1%;}
+.why_list li:last-child{width:98%;}
+.why_list li h3{min-height:40px;}
+.why_list li p{min-height:50px;margin-top:20px;}
+.global_text{
+	padding: 0 50px 0 50px;
+}
+.logistic{
+	padding: 0 50px 0 50px;
+}
+.contact_subtitle{
+	width: 600px;
+}
+
+
+}
+	
+/*갤노트 가로*/
+@media (max-width : 690px) { 
+.right_part {
+    padding: 180px 0px 100px;
+    width: 340px;
+}
+
+.right_part02 {
+	font-size: 30px;
+}
+
+.right_part03 {
+	font-size: 30px;
+	margin: -10px 0 20px 0;
+}
+
+.right_part05 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 8px;
+    height: 50px;
+    position: absolute;
+    margin-top: 140px;
+}
+
+.m_deck_rest_image {
+	margin: -56px;
+	width:100% !important;
+}
+
+.section02 {
+    width: 100%;
+    padding: 20px 20px 60px;
+}
+
+.deck4_cont01 {
+    width: 200px;
+    padding: 0 30px 30px;
+}
+
+.deck4_keep {
+    padding: 0px 0 60px 0;
+}
+
+.deck6_cont01 {
+    width: 100%;
+}
+
+.deck3_text {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.deck3_1_text {
+    width: 100%;
+    padding: 40px 10px 60px;
+}
+
+.deck5_title {
+    width: 100%;
+}
+
+.deck5_subtitle {
+    width: 100%;
+}
+
+.deck6_cont {
+	width:90%;
+	margin-left: 30px;
+}
+
+.deck5_title {
+    padding: 70px 0 55px;
+}
+
+.deck5_subtitle {
+    width: 90%;
+    text-align: left;
+}
+
+.deck5_subtitle.nthem{
+	width:90%;
+}
+
+.deck5_cont01 {
+    width: 50%;
+    padding: 25px 0 25px;
+}
+
+.deck6_subtitle{
+	width:90%;
+}
+.deck6_cont011 {
+    text-align: center;
+}
+
+.deck6_cont012 {
+    padding: 0 10px;
+}
+
+.price_table{
+	margin-bottom: 50px;
+}
+
+.global_text {
+    font-size: 14px;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.span3 {
+	vertical-align: top;
+}
+
+.bb_big {
+	text-align:center; 
+	margin:auto; 
+	padding-top:60px; 
+	padding-bottom:60px;  
+	width:100%; 
+	text-align:left; 
+	line-height: 1.2;
+	left: 18%;
+	position: relative;
+}
+
+.bb_big_title {
+	color:white; 
+	font-family: 'Roboto', Arial; 
+	font-size: 78px;
+}
+
+.bb_big_title2 {
+	color:black; 
+	font-size: 78px;
+}
+
+.mem_background {
+    width: 230px;
+}
+
+.deck5_cont01_1 .player{visibility:hidden;display:none;}
+
+.deck9_inside {
+ height: 100%;
+ margin-top: 0;
+ padding-top: 30px;
+}
+
+.mem_class {
+    min-height: 100px;
+}
+
+.autoplay {
+	display: block !important;
+}
+
+.noplay {
+	display: block !important;
+}
+
+
+}
+	
+/*아이폰5 가로*/
+@media (max-width : 640px) { 
+	
+	
+.right_part {
+    padding: 180px 0px 100px;
+    width: 280px;
+}
+
+.right_part02 {
+	font-size: 24px;
+}
+
+.right_part03 {
+	font-size: 24px;
+}
+
+.right_part05 {
+    font-size: 8px;
+    height: 50px;
+    position: absolute;
+    margin-top: 170px;
+}
+
+.app_btn {
+	padding: 0px 6px 12px;
+}
+
+.bb_big {
+	text-align:center; 
+	margin:auto; 
+	padding-top:60px; 
+	padding-bottom:60px;  
+	width:100%; 
+	text-align:left; 
+	line-height: 1.2;
+	left: 18%;
+	position: relative;
+}
+
+.bb_big_title {
+	color:white; 
+	font-family: 'Roboto', Arial; 
+	font-size: 70px;
+}
+
+.bb_big_title2 {
+	color:black; 
+	font-size: 70px;
+}
+
+.mem_background {
+    width: 225px;
+}
+
+.global_text {
+    font-size: 12px;
+}
+
+.mem_pic img {
+	width: 80%;
+	margin: 0px auto;
+}
+
+.mbottom_icon img {
+	margin: 10px;
+}
+
+.deck5_cont01_1 .player{visibility:hidden;display:none;}
+
+.deck9_inside {
+  height: 160%;
+}
+
+.mem_class {
+    min-height: 0px;
+}
+
+.autoplay {
+	display: block !important;
+}
+
+.noplay {
+	display: block !important;
+}
+
+/* kang2oon add */
+.sendmail{width:600px;}
+.deck5_cont01{padding:30px 0;}
+.deck5_subtitle.nthem{width:600px;}
+.o2o_text{padding:30px 0 0;font-size:16px;width:500px;}
+.o2o_text h3{margin-bottom:30px;}
+.deck4_cont01{width:180px;padding:0 20px 20px;}
+.deck4_cont01_3{font-size:15px;}
+.deck6_subtitle{width:600px;}
+.deck6_cont{padding:30px 30px 20px;}
+.deck5_cont{margin-bottom:50px;}
+.mcapp_text{width:600px;}
+.section02{width:}
+
+}
+	
+/*갤노트 세로*/
+@media (max-width : 560px) { 
+	
+.m_deck01 {
+    height: 1350px !important;
+}
+
+.right_part {
+    padding: 0px 26px !important;
+}
+
+.right_part05 {
+    font-size: 8px;
+    height: 50px;
+    width: 300px;
+    position: absolute;
+    margin-top: 100px;
+}
+
+.right_part05 img{
+	padding-top: 10px;
+	float: left;
+}
+
+.app_btn {
+    padding: 0px 5px 12px;
+}
+
+.left_image {
+    width: 100%;
+}
+
+.deck2{
+	padding-bottom: 30px;
+}
+
+.section01 img {
+	width: 100%;
+	padding-top: 50px;
+}
+
+.section02{
+	padding-bottom: 20px;
+}
+
+.section02_1 {
+/*	font-size: 20px;  */
+}
+
+.section02_2 {
+/*	font-size: 20px;  */
+}
+
+.section02_3 {
+    width: 100%;
+}
+
+.deck3_subtitle{
+	width: 90%;
+}
+
+.deck6_cont013 img {
+    width: 100%;
+}
+
+.right_part {
+    width: 100%;
+    padding: 0px;
+}
+
+.section01 {
+    padding: 30px 0 0;
+}
+
+.deck3_text {
+    width: 100%;
+    padding: 0 10px 20px;
+}
+
+.deck4_title {
+    font-size: 42px;
+    line-height: 1.2;
+}
+
+.deck5_title {
+    font-size: 42px;
+    line-height: 1.2;
+}
+
+.deck5_cont01 {
+    width: 100%;
+}
+
+.deck6_cont011 {
+    font-size: 42px;
+    line-height: 1.2;
+}
+
+.global_title {
+    font-size: 42px;
+    line-height: 1.2;
+    width: 96%;
+}
+
+.span3 {
+    margin: 10px 10px;
+}
+
+.mem_background {
+    width: 275px;
+}
+
+.mem_pic img{
+	width: 200px; height: 200px;
+}
+
+.mbottom_text01 {
+    padding: 60px 0 20px;
+}
+
+.mbottom_text02 {
+    font-size: 40px;
+    line-height: 1;
+}
+
+.mbottom_icon {
+    padding: 40px 0 60px;
+}
+
+.slick-prev {
+    left: 0px !important;
+    z-index:100;
+}
+
+.slick-next {
+    right: 0px !important;
+	z-index:100;
+}
+
+.deck5_cont01_1 .player{visibility:hidden;display:none;}
+
+.deck9_inside {
+ height: 80%; padding-left: 30px;
+}
+
+.autoplay {
+	display: block !important;
+}
+
+.noplay {
+	display: block !important;
+}
+
+.price_table {
+    width: 96%;
+}
+
+.price_table:hover {
+    width: 96%;
+}
+
+/* kang2oon add */
+.mcapp_text{width:100%;padding:30px;margin:0;}
+.deck4_cont01{width:100%;}
+.deck4_cont{padding-bottom: 0px;}
+.deck4_cont01_1{padding:0 0 10px 0;}
+.deck6_title{font-size:42px;}
+.deck6_subtitle, .deck5_subtitle.nthem{width:100%;padding:30px;margin:0;}
+.o2o_text{width:100%;padding:30px;margin:0;}
+.o2o{padding:0 0 30px;}
+.portfolio li img{max-width:70%;}
+.sendmail{width:100%;margin:0 0 50px;}
+.sendmail li, .sendmail li.double{float:none;width:100%;margin-bottom:1%;}
+#contact{width:80%;height:57%;border-radius:0; margin-left: 0 !important; left:10% !important;}
+	.sendmail li input, .sendmail li textarea{border-radius:5px;padding:8px 13px;font-size:12px;}
+	.sendmail li textarea{height:150px;}
+	#contact .sendmail input[type='submit'],
+	#contact .sendmail input[type='button']{width:45%;text-align:center;margin:10px 0;padding:10px;border-radius:0;font-size:12px;}
+.contact_subtitle{
+	width:80%
+}
+}
+	
+/* 아이폰5 세로 */
+@media (max-width : 360px) { 
+	
+.m_deck01 {
+    height: 1350px !important;
+}
+
+.right_part {
+    padding: 0px 6px !important;
+}
+
+.right_part05 {
+    font-size: 8px;
+    height: 50px;
+    position: absolute;
+    width: 230px;
+    margin-top: 95px;
+}
+
+.right_part05 img{
+	width:50%;
+}
+
+.top_language {
+    margin: 3px 10px;
+    letter-spacing: 1px;
+}
+
+.deck4_cont {
+    padding: 60px 0 60px 0;
+}
+
+
+
+.price_table {
+    width: 96%;
+}
+
+.price_table:hover {
+    width: 96%;
+}
+
+
+.deck4_title {
+    font-size: 34px;
+    line-height: 1.2;
+}
+
+.deck5_title {
+    font-size: 34px;
+    line-height: 1.2;
+}
+
+
+.deck6_cont011 {
+    font-size: 34px;
+    line-height: 1.2;
+}
+
+.global_title {
+    font-size: 34px;
+    line-height: 1.2;
+    width: 96%;
+}
+
+#contact .sendmail input[type='submit'], #contact .sendmail input[type='button']{height:40px;}
+
+.mem_background {
+    width: 235px;
+}
+
+.deck5_cont01_1 .player{visibility:hidden;display:none;}
+
+.deck9_inside {
+ height: 100%;
+}
+
+.autoplay {
+	display: block !important;
+}
+
+.noplay {
+	display: block !important;
+}
+
+
+
+
+}
